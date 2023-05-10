@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <script src="D:\web design-2\jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <style>
+
+    *{
+    margin: 0;padding: 0; box-sizing: border-box;
+}
+.site-header{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(57deg,rgb(37, 150, 187),rgb(104, 104, 249));
+    clip-path: polygon(0% 0%,100% 0%,100% 80%,0% 100%);
+}
+
+.site-header h1{
+    font-size:xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: orange;
+}
+.site-header h4{
+    font-size: 20px;
+    padding: 30px 0;
+    color:rgb(63, 3, 73);
+}
+.site-header button{
+    font-size: 17px;font-weight: bolder;
+    color:bisque; text-transform: uppercase;
+    background: linear-gradient(57deg,green,yellowgreen);
+    border-radius: 3px; padding: 20px 35px;
+    margin:30px;
+    
+}
+.site-header button:hover{
+    background: linear-gradient(57deg,yellowgreen,green);
+}
+
+
+  
+   
+     .tophead{
+     height: 115px;
+    /* background:linear-gradient(orange, whitesmoke,rgb(128, 238, 128));  */
+    display: flex; justify-content: space-between;
+    align-items: center;    z-index: 9999 !important;
+    position: fixed;
+    padding-left: 300px;
+    }
+
+    </style>
+    
+</head>
+
+
+
+<body>
+    <header class="site-header">
+        <div class="hed container" >
+            <div class="media pt-3  align-items-center" style="padding-left:100px ;">
+                <img src="images/logo1.png" width="100px"  style="margin: 10px; padding: 10px;" class="rounded-circle  shadow-sm">
+                <div class="media-body">
+                    <h2 class="m-3" style=" color:yellow;font-weight: bolder;"> JEEVAN HOSPITAL</h2>
+                     <!-- <h3 style="font-size: xx-large;padding-bottom: 60px;padding-top: 35px; color:chocolate; font-weight:bolder ;">JEEVAN HOSPITAL</h3>  -->
+                    <h5 class="font-weight-normal m-3 pb-3" style="color:rgb(3, 47, 3);font-weight: bolder;">Happy Life is Good Life </h5>
+                </div>
+            </div>
+        </div>
+        <div classs="container" style="padding-top:80px ;padding-bottom: 220px;">
+            <div class="row" >
+                <div class="col-md-6" style="text-align: center;">
+         
+                <h1>Welcome To our Hospiatal</h1>
+                <h4>Protect Your Health And Take Care Your Health</h4>
+                <a href="adminlogin.php">
+                    <button >Admin</button>
+                </a>
+                <a href="registration.php">
+                <button >Registration here</button>
+                </a>
+                <a href="login.php">
+                <button >login here</button>
+                </a>
+          
+      
+            </div>
+            <div class="col-md-6">
+         
+                <img src="images/main2.png" style="width:80%;">
+       
+        </div>
+        </div>
+
+    </div>
+    </header>
+</body>
+</html>
